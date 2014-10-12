@@ -10,5 +10,5 @@ plot(x,y, type = "l",xlab="",ylab="Global Active Power (kilowatts)",xaxt="n",yax
 axis(side=2,at=seq(0,6,2),labels=seq(0,6,2))
 axis(side=1,at=seq(0,2880,1440),labels=c("Thu","Fri","Sat"))
 #Copy into png file
-dev.copy(png, filename="C:/Documents and Settings/Wei Jie Kwok/Desktop/R prog lessons - Data sets/Exploratory Data Analysis/ExData_Plotting1/plot2.png",width=480,height=480)
+dev.copy(png, filename="C:/Documents and Settings/Wei Jie Kwok/Desktop/backup/ExData_Plotting1/plot2.png",width=480,height=480)
 dev.off()

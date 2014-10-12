@@ -1,4 +1,4 @@
-png(filename="C:/Documents and Settings/Wei Jie Kwok/Desktop/R prog lessons - Data sets/Exploratory Data Analysis/ExData_Plotting1/plot4.png",width=480,height=480)
+png(filename="C:/Documents and Settings/Wei Jie Kwok/Desktop/backup/ExData_Plotting1/plot4.png",width=480,height=480)
 data <- read.csv("C:/Documents and Settings/Wei Jie Kwok/Desktop/R prog lessons - Data sets/Exploratory Data Analysis/household_power_consumption.txt", sep=";", na.strings="?", colClasses=c("Date"="Date"))
 t <- seq(1:2880)
 #Global Active Power data
